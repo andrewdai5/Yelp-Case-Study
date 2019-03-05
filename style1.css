@@ -1,0 +1,457 @@
+main {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+body {
+	margin: 0;
+	font-family: 'Muli', sans-serif;
+	font-weight: lighter;
+	margin-bottom: 100px;
+	/*color: #4F4F4F;*/
+}
+
+h1 {
+	font-size: 2.4rem;
+    margin: 1.5em 0 0.5em 0;
+}
+
+h4 {
+	color: grey;
+}
+
+h5 {
+	font-size: 0.9rem;
+	color: #A5A5A5;
+}
+
+p {
+	line-height: 1.8;
+}
+
+a {
+    text-decoration: none !important;
+    color: #4F4F4F;
+}
+
+/*ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+ul li:before {
+	content: "\203A \0020";
+	padding-right: 0.5rem;
+}*/
+
+article, aside, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+footer {
+	text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+hr {
+	margin: 5em 0 2em 0;
+	border-top: 1px solid #E5E5E5;
+}
+
+u {
+	line-height: 170%;
+    border-bottom: 1px dotted #000;
+    text-decoration: none;
+}
+
+body, html {
+	height: 100%;
+}
+
+footer {
+	padding-bottom: 0.5rem;
+	margin-bottom: 20px;
+}
+
+img {
+	width: 100%;
+}
+
+#chev-back {
+	padding-top: 3rem;
+	width: 1.3rem;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("https://i.pinimg.com/originals/41/7b/a5/417ba55ccf7adaf46f0de57245f09ed1.png");
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.emoji {
+	font-size: 1rem;
+	width: 1.2em;
+}
+
+.emoji-cool-things {
+	font-size: inherit;
+	width: 8em;
+}
+
+.work {
+	background-color: white;
+	border-radius: 2px;
+    padding: 24px;
+    padding-top: 5px;
+    padding-bottom: 70px;
+    border: 1px solid hsl(0, 0%, 90%);
+    margin: 24px 0;
+    transition: .2s ease-out;
+/*    width: 48%;
+    margin-right: 0px;
+    display: inline-block;*/
+}
+
+.work:hover {
+	transform: scale(1.02);
+}
+
+.projects {
+	background-color: white;
+	border-radius: 4px;
+    padding: 24px;
+    padding-bottom: 5px;
+    padding-top: 30px;
+    border: 1px solid hsl(0, 0%, 90%);
+    margin: 24px 0;
+    transition: .2s ease-out;
+    color: grey;
+}
+
+.projects h3 {
+	color: #82CBD6;
+}
+
+.projects:hover {
+	transform: scale(1.02);
+	/*background-color: #82CBD6;*/
+	border: 2px solid #82CBD6;
+}
+
+#projects-header {
+	color: #82CBD6;
+	margin-top: 1.5rem;
+	margin-bottom: -0.4em;
+}
+
+.projects-subtitles {
+	color: #34987C;
+}
+
+.page-title {
+	text-align: center;
+}
+
+.writing-paragraph {
+	max-width: 700px;
+	margin: 0 auto;
+	width: 85%;
+}
+
+#name-rect {
+	background-color: #82CBD6;
+	width: 50px;
+	height: 5px;
+	margin-bottom: 1.5rem;
+}
+
+#breaking-down-yelp {
+	max-width: 400px;
+}
+
+/*.projects:hover h3 {
+	color: white;
+}*/
+
+#work-section {
+	display: inline;
+}
+
+/*#shopify {
+	color: #857FB9;
+}
+*/
+
+#shopify-header {
+	color: #857FB9;
+	margin-top: 1.5rem;
+	margin-bottom: -0.4em;
+}
+
+#shopify-subtitle {
+	color: black;
+}
+
+#vidyard-header{
+	margin-top: 1.5rem;
+	margin-bottom: -0.4em;
+	color: #B3DCBE;
+}
+
+#hirebud-header {
+	color: #5D38DB;
+	margin-top: 1.5rem;
+	margin-bottom: -0.4em;
+}
+
+#hirebud-highlight {
+	color: #5D38DB;
+}
+
+#hirebud-logo {
+	width: 100%;
+	max-width: 230px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#hirebud-mockups {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*
+#viryl {
+	color: #5AC49E;
+}
+*/
+/*#viryl p {
+	color: grey;
+}
+
+#viryl:hover {
+	background-color: #5AC49E;
+	color: white;
+	border: 2px solid #5AC49E;
+}*/
+
+#viryl-header {
+	color: #5AC49E;
+	margin-top: 1.5rem;
+	margin-bottom: -0.4em;
+}
+
+#viryl-subtitle {
+	color: #75BC82;
+}
+
+#viryl-header-div {
+	height: 20rem;
+	overflow: hidden;
+}
+
+#viryl-header-pic {
+	max-width:100%;
+	bottom: 0;
+	margin-bottom: 0;
+}
+
+#viryl-workflow-img {
+	max-width: 500px;
+}
+
+#me-pic {
+	margin-top: 1.5rem;
+	width: 10em;
+}
+
+#hello-emoji{
+	width: 3rem;
+	position: absolute;
+	left: 0;
+}
+
+#pm-colour {
+	color: #82CBD6;
+}
+
+#design-colour {
+	color: #82CBD6;
+}
+
+.fixed {
+	width: 5rem;
+}
+
+.footer-links {
+	color: #4F4F4F;
+}
+
+.footer-links:hover, .footer-links:hover u{
+	color: #82CBD6;
+	transition: .15s ease-out;
+	border-bottom: 1px dotted #7DE7CA;
+}
+
+.copyright {
+	color: grey;
+	font-size: 0.8rem;
+	text-align: center;
+}
+
+.prototype-link {
+	text-align: center;
+}
+
+.wao-gif {
+	margin: 0 auto;
+	width: 90%;
+	max-width: 250px;
+}
+
+.wao-gif__container {
+	margin-top: 20px;
+	width: 100%;
+	text-align: center;
+}
+
+/*Temp*/
+.under-construction {
+	padding-top: 15rem;
+	text-align: center;
+}
+
+.under-construction-emoji {
+	font-size: inherit;
+	width: 2em;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	.emoji {
+		font-size: 1.6rem;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/********************************* Portfolio *********************************/
+
+
+	.work-img {
+	border-radius: 2px;
+/*    padding: 24px;
+    padding-top: 5px;*/
+    margin: 24px 0;
+    transition: .2s ease-out;
+/*    width: 48%;
+    margin-right: 0px;
+    display: inline-block;*/
+}
+
+	.work-img:hover {
+		background-color: #EEEEEE;
+	}
+	.block-title {
+		margin-top: 0px;
+		margin-bottom: 5px;
+		text-align: center;
+	}
+
+	.block-subtitle {
+		margin-top: 0px;
+		text-align: center;
+	}
+
+	.block-titles {
+		margin: 10px 10px 0px 5px;
+	}
+    .left {
+        float: left;
+        width: 48%;
+    }
+    .job {
+    	width: 100%;
+    }
+    .right {
+        float: right;
+        width: 48%;
+    }
+    .group:after {
+        content:"";
+        display: table;
+        clear: both;
+    }
+/*    #vidyard {
+    	color: #B2CCD5;
+    }
+*/
+    @media screen and (max-width: 480px) {
+        .left, .right {
+            float: none;
+            width: auto;
+        }
+    }
+/*#tilt-test {
+	transform-style: preserve-3d;
+}
+
+ #outter-tilt {
+	background-color: blue;
+	margin: 0 auto;
+	padding-top: 75px;
+	height: 200px;
+	width: 200px;
+transform: translateZ(20px);
+ }
+
+ #inner-tilt {
+	background-color: red;
+	margin: 0 auto;
+	height: 50px;
+	width: 50px;
+ }
+
+*/
+
+
+
+
+    img, svg {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+svg {
+  height: 38px;
+  width: 38px;
+  display: inline-block;
+/*}
+#title-left {
+	float: left;
+}
+
+#title-right {
+	float:right;
+}*/
+}
